@@ -1,6 +1,6 @@
 {
   "name": "@siddharthjain25/beaconcli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI utility to publish and subscribe to Beacon real-time notification streams directly from the terminal.",
   "main": "index.js",
   "type": "module",
