@@ -267,7 +267,7 @@ export async function runCli() {
 
   // Load config & option overrides
   const config = loadConfig();
-  const baseUrl = values.url || config[CONFIG_BASE_URL] || 'https://beacon.vercel.app';
+  const baseUrl = values.url || config[CONFIG_BASE_URL] || 'https://beaconop.vercel.app';
   const apiKey = values.key || config[CONFIG_API_KEY];
 
   if (command === 'setup' || command === 'init') {
